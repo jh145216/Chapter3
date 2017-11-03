@@ -28,7 +28,7 @@ Page 164 Tutorial 164 Salary Calculator
 
 Page 179 Tutorial 3-11 Highlander Hotel
 
-<u>Assignments</u>
+<h3>Assignments</h3>
 Complete the following Assignments for the class.
 page 202 #1, #2, #3, #8, #11
 
