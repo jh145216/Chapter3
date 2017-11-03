@@ -1,4 +1,4 @@
-# Chapter3
+# Visual Basic Chapter 3
 
 Objectives of this chapter
 Gathering Text Input, Variables and Data Types, Performing Calculations, Mixing Different Data Types, Formatting Numbers and Dates
