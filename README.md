@@ -28,9 +28,9 @@ Page 164 Tutorial 164 Salary Calculator
 
 Page 179 Tutorial 3-11 Highlander Hotel
 
-Assignments
+<u>Assignments</u>
 Complete the following Assignments for the class.
 page 202 #1, #2, #3, #8, #11
 
-
+***Turn in page 202 into your Google Classroom for a grade.
 <img src="VBChapter3.JPG" height="400" width="400">
