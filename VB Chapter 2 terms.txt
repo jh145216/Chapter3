@@ -1,0 +1,21 @@
+Aspect Ratio
+Assignment operator
+Assignment statement
+Boolean Property
+Bounding box
+Class Declaration
+Compile Errors 
+Design Mode
+Design Time
+Font Property
+IntelliSense
+Method Call
+Project File
+Run Mode
+Run Time
+Run Time Errors
+Solution
+String Literal
+Visual Property
+You can Run an application in the Visual Studio environment by pressing the F5 key? T or F
+You cannot modify a controls Text property with code? T or F
