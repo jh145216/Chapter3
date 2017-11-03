@@ -31,3 +31,6 @@ Page 179 Tutorial 3-11 Highlander Hotel
 Assignments
 Complete the following Assignments for the class.
 page 202 #1, #2, #3, #8, #11
+
+
+<img src="VBChapter3.JPG" height="400" width="400">
