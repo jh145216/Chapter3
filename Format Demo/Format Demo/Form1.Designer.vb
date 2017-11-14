@@ -27,16 +27,16 @@ Partial Class Form1
         Me.lblResult = New System.Windows.Forms.Label()
         Me.txtInput = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.btnNumber = New System.Windows.Forms.Button()
-        Me.btnFix = New System.Windows.Forms.Button()
-        Me.btnExponential = New System.Windows.Forms.Button()
-        Me.btnCurrency = New System.Windows.Forms.Button()
-        Me.btnPercent = New System.Windows.Forms.Button()
-        Me.btnShortDate = New System.Windows.Forms.Button()
-        Me.btnLongDate = New System.Windows.Forms.Button()
-        Me.btnShortTime = New System.Windows.Forms.Button()
-        Me.btnLongTime = New System.Windows.Forms.Button()
         Me.btnFullDateTime = New System.Windows.Forms.Button()
+        Me.btnLongTime = New System.Windows.Forms.Button()
+        Me.btnShortTime = New System.Windows.Forms.Button()
+        Me.btnLongDate = New System.Windows.Forms.Button()
+        Me.btnShortDate = New System.Windows.Forms.Button()
+        Me.btnPercent = New System.Windows.Forms.Button()
+        Me.btnCurrency = New System.Windows.Forms.Button()
+        Me.btnExponential = New System.Windows.Forms.Button()
+        Me.btnFix = New System.Windows.Forms.Button()
+        Me.btnNumber = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -92,77 +92,14 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Select a Format"
         '
-        'btnNumber
+        'btnFullDateTime
         '
-        Me.btnNumber.Location = New System.Drawing.Point(24, 29)
-        Me.btnNumber.Name = "btnNumber"
-        Me.btnNumber.Size = New System.Drawing.Size(106, 23)
-        Me.btnNumber.TabIndex = 0
-        Me.btnNumber.Text = "Number Format (n)"
-        Me.btnNumber.UseVisualStyleBackColor = True
-        '
-        'btnFix
-        '
-        Me.btnFix.Location = New System.Drawing.Point(24, 68)
-        Me.btnFix.Name = "btnFix"
-        Me.btnFix.Size = New System.Drawing.Size(121, 23)
-        Me.btnFix.TabIndex = 1
-        Me.btnFix.Text = "Fixed-point format (f)"
-        Me.btnFix.UseVisualStyleBackColor = True
-        '
-        'btnExponential
-        '
-        Me.btnExponential.Location = New System.Drawing.Point(24, 114)
-        Me.btnExponential.Name = "btnExponential"
-        Me.btnExponential.Size = New System.Drawing.Size(121, 23)
-        Me.btnExponential.TabIndex = 2
-        Me.btnExponential.Text = "Exponential format (e)"
-        Me.btnExponential.UseVisualStyleBackColor = True
-        '
-        'btnCurrency
-        '
-        Me.btnCurrency.Location = New System.Drawing.Point(24, 154)
-        Me.btnCurrency.Name = "btnCurrency"
-        Me.btnCurrency.Size = New System.Drawing.Size(106, 23)
-        Me.btnCurrency.TabIndex = 3
-        Me.btnCurrency.Text = "Currency format (c)"
-        Me.btnCurrency.UseVisualStyleBackColor = True
-        '
-        'btnPercent
-        '
-        Me.btnPercent.Location = New System.Drawing.Point(24, 195)
-        Me.btnPercent.Name = "btnPercent"
-        Me.btnPercent.Size = New System.Drawing.Size(106, 23)
-        Me.btnPercent.TabIndex = 4
-        Me.btnPercent.Text = "Percent format (p)"
-        Me.btnPercent.UseVisualStyleBackColor = True
-        '
-        'btnShortDate
-        '
-        Me.btnShortDate.Location = New System.Drawing.Point(194, 29)
-        Me.btnShortDate.Name = "btnShortDate"
-        Me.btnShortDate.Size = New System.Drawing.Size(98, 23)
-        Me.btnShortDate.TabIndex = 5
-        Me.btnShortDate.Text = "Short Date (d)"
-        Me.btnShortDate.UseVisualStyleBackColor = True
-        '
-        'btnLongDate
-        '
-        Me.btnLongDate.Location = New System.Drawing.Point(194, 68)
-        Me.btnLongDate.Name = "btnLongDate"
-        Me.btnLongDate.Size = New System.Drawing.Size(98, 23)
-        Me.btnLongDate.TabIndex = 6
-        Me.btnLongDate.Text = "Long Date (D)"
-        Me.btnLongDate.UseVisualStyleBackColor = True
-        '
-        'btnShortTime
-        '
-        Me.btnShortTime.Location = New System.Drawing.Point(194, 114)
-        Me.btnShortTime.Name = "btnShortTime"
-        Me.btnShortTime.Size = New System.Drawing.Size(98, 23)
-        Me.btnShortTime.TabIndex = 7
-        Me.btnShortTime.Text = "Short Time (t)"
-        Me.btnShortTime.UseVisualStyleBackColor = True
+        Me.btnFullDateTime.Location = New System.Drawing.Point(194, 195)
+        Me.btnFullDateTime.Name = "btnFullDateTime"
+        Me.btnFullDateTime.Size = New System.Drawing.Size(98, 23)
+        Me.btnFullDateTime.TabIndex = 9
+        Me.btnFullDateTime.Text = "Full date/time (F)"
+        Me.btnFullDateTime.UseVisualStyleBackColor = True
         '
         'btnLongTime
         '
@@ -173,20 +110,83 @@ Partial Class Form1
         Me.btnLongTime.Text = "Long Time (T)"
         Me.btnLongTime.UseVisualStyleBackColor = True
         '
-        'btnFullDateTime
+        'btnShortTime
         '
-        Me.btnFullDateTime.Location = New System.Drawing.Point(194, 195)
-        Me.btnFullDateTime.Name = "btnFullDateTime"
-        Me.btnFullDateTime.Size = New System.Drawing.Size(98, 23)
-        Me.btnFullDateTime.TabIndex = 9
-        Me.btnFullDateTime.Text = "Full date/time (F)"
-        Me.btnFullDateTime.UseVisualStyleBackColor = True
+        Me.btnShortTime.Location = New System.Drawing.Point(194, 114)
+        Me.btnShortTime.Name = "btnShortTime"
+        Me.btnShortTime.Size = New System.Drawing.Size(98, 23)
+        Me.btnShortTime.TabIndex = 7
+        Me.btnShortTime.Text = "Short Time (t)"
+        Me.btnShortTime.UseVisualStyleBackColor = True
+        '
+        'btnLongDate
+        '
+        Me.btnLongDate.Location = New System.Drawing.Point(194, 68)
+        Me.btnLongDate.Name = "btnLongDate"
+        Me.btnLongDate.Size = New System.Drawing.Size(98, 23)
+        Me.btnLongDate.TabIndex = 6
+        Me.btnLongDate.Text = "Long Date (D)"
+        Me.btnLongDate.UseVisualStyleBackColor = True
+        '
+        'btnShortDate
+        '
+        Me.btnShortDate.Location = New System.Drawing.Point(194, 29)
+        Me.btnShortDate.Name = "btnShortDate"
+        Me.btnShortDate.Size = New System.Drawing.Size(98, 23)
+        Me.btnShortDate.TabIndex = 5
+        Me.btnShortDate.Text = "Short Date (d)"
+        Me.btnShortDate.UseVisualStyleBackColor = True
+        '
+        'btnPercent
+        '
+        Me.btnPercent.Location = New System.Drawing.Point(24, 195)
+        Me.btnPercent.Name = "btnPercent"
+        Me.btnPercent.Size = New System.Drawing.Size(106, 23)
+        Me.btnPercent.TabIndex = 4
+        Me.btnPercent.Text = "Percent format (p)"
+        Me.btnPercent.UseVisualStyleBackColor = True
+        '
+        'btnCurrency
+        '
+        Me.btnCurrency.Location = New System.Drawing.Point(24, 154)
+        Me.btnCurrency.Name = "btnCurrency"
+        Me.btnCurrency.Size = New System.Drawing.Size(106, 23)
+        Me.btnCurrency.TabIndex = 3
+        Me.btnCurrency.Text = "Currency format (c)"
+        Me.btnCurrency.UseVisualStyleBackColor = True
+        '
+        'btnExponential
+        '
+        Me.btnExponential.Location = New System.Drawing.Point(24, 114)
+        Me.btnExponential.Name = "btnExponential"
+        Me.btnExponential.Size = New System.Drawing.Size(121, 23)
+        Me.btnExponential.TabIndex = 2
+        Me.btnExponential.Text = "Exponential format (e)"
+        Me.btnExponential.UseVisualStyleBackColor = True
+        '
+        'btnFix
+        '
+        Me.btnFix.Location = New System.Drawing.Point(24, 68)
+        Me.btnFix.Name = "btnFix"
+        Me.btnFix.Size = New System.Drawing.Size(121, 23)
+        Me.btnFix.TabIndex = 1
+        Me.btnFix.Text = "Fixed-point format (f)"
+        Me.btnFix.UseVisualStyleBackColor = True
+        '
+        'btnNumber
+        '
+        Me.btnNumber.Location = New System.Drawing.Point(24, 29)
+        Me.btnNumber.Name = "btnNumber"
+        Me.btnNumber.Size = New System.Drawing.Size(106, 23)
+        Me.btnNumber.TabIndex = 0
+        Me.btnNumber.Text = "Number Format (n)"
+        Me.btnNumber.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(436, 425)
+        Me.ClientSize = New System.Drawing.Size(426, 427)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.txtInput)
         Me.Controls.Add(Me.lblResult)
